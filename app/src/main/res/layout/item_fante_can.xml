@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:dividerHeight="0px"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardPreventCornerOverlap="false">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        style="@style/Ripple">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="4dp"
+            android:id="@+id/clickLay">
+
+            <ImageView
+                android:id="@+id/btnLogo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/canticle"/>
+
+            <TextView
+                android:id="@+id/tvHymn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_alignTop="@+id/btnLogo"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/btnLogo"
+                android:layout_toEndOf="@+id/btnLogo"
+                android:text="Hymns"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textColor="@color/gradStop"
+                android:fontFamily="@font/hb"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvHymn"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/btnLogo"
+                android:layout_toEndOf="@+id/btnLogo"
+                android:id="@+id/lyrics"
+                android:text="   Stanzas - 6"
+                android:textColor="@color/stanzas_text"
+                android:visibility="gone"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:id="@+id/tvId"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</androidx.cardview.widget.CardView>

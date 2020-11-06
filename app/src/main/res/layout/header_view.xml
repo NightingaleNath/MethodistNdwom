@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/dp_16"
+    android:paddingRight="@dimen/dp_16"
+    android:paddingTop="@dimen/dp_16">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/image_view"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_view"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView"
+        android:text="Methodist Ndwom"
+        android:fontFamily="@font/hb"
+        android:textSize="16sp"
+        android:textColor="@color/Black"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_right"
+        android:tint="#797878"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentEnd="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_marginTop="40dp"
+        android:id="@+id/layout"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/view1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ultra"
+                android:id="@+id/nav_methodist"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1"
+                android:layout_below="@id/nav_methodist"
+                android:text="English Hymn"
+                android:layout_marginTop="@dimen/dp_5"
+                android:textSize="12sp"
+                android:textColor="@color/Black"
+                android:fontFamily="@font/bariol_bold"
+                android:includeFontPadding="false"
+                android:textAlignment="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:id="@+id/view2"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ultra"
+                android:id="@+id/nav_ndwom"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text2"
+                android:layout_below="@id/nav_ndwom"
+                android:text="English Hymn"
+                android:textSize="12sp"
+                android:layout_marginTop="@dimen/dp_5"
+                android:textColor="@color/Black"
+                android:fontFamily="@font/bariol_bold"
+                android:includeFontPadding="false"
+                android:textAlignment="center"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/layout"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/transparent_black_percent_60"/>
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_5"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".activities.HymnDetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="@dimen/card_margin"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0px"
+        app:cardCornerRadius="8dp"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:descendantFocusability="beforeDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hb"
+                android:textAllCaps="true"
+                android:text="Font Increament"/>
+
+            <SeekBar
+                android:id="@+id/font_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Adjust Font Size"
+                android:thumb="@drawable/click"
+                android:progress="16"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/card_margin"
+        android:minHeight="200dp"
+        app:cardCornerRadius="@dimen/card_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/info"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_5"
+                android:fontFamily="@font/hbbb"
+                android:lineSpacingExtra="4dp"
+                android:text="6 STANZAS
+                  M.H.B.1"
+                android:textAlignment="center"
+                android:textColor="@color/hymn_text"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/hymn_content"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/hbbb"
+                android:lineSpacingExtra="5.0dip"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:text="1. Mi-nã lilɛii akpe kɛ la
+  Mi kpɔlɔ yijiemɔ ;
+  Mi- Nyɔŋmɔ kɛ Maŋtsɛ
+  numnyãm,
+  Edromɔ kunim lɛ.
+
+2. Mi-drolɔ Nuŋtsɔ kɛ Nyɔŋmɔ
+  Wa mi ni mã-jaje
+  Nyãm ni sa Ogbɛi krɔŋkrɔŋ
+  lɛ,
+  Kɛ kple jeŋ muu lɛ fɛɛ.
+
+3. Yesu, gbɛi ni fãa wɔ-gbeyei
+  Ni tsiɔ wɔ-ŋkɔmɔi nãa;
+  Ji saŋku yɛ 'sha-feelɔ toiŋ,
+  Ji w'la kɛ hejɔlɛ.
+
+4. Ewieɔ ni Egbee toi-boo lɛ
+  Hãa gbohii wala hee;
+  Tsui n' ejw'ra kɛ jramɔ
+  mii-shɛɔ,
+  Humii he - ɔ yeɔ.
+
+5. Ejw'raa esha mli hewalɛ,
+  Efɛneɔ gboklɛfoi;
+  Ela nyɛɔ tsuɔ 'sha-feelɔ he,
+  Eye kunim kɛ-hãm.'
+
+6. Nã ! Nyɛ-he 'shai kã
+  Yesu nɔ,
+  Agbe Nyɔŋmɔ Too -- bi
+  Akɛ Ewala kpa musu
+  Kɛ-hã mɔfɛɛmɔ kla."
+                android:textColor="@color/Black"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/id"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/title"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/stanza"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:id="@+id/view_id"
+                android:background="#bdb6b6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_ndwom"
+            android:icon="@drawable/joy"
+            android:title="@string/asore_ndwom" />
+
+        <item
+            android:id="@+id/nav_methodist"
+            android:icon="@drawable/joy"
+            android:title="@string/methodist_hymn" />
+
+        <item
+            android:id="@+id/nav_canticles"
+            android:icon="@drawable/joy"
+            android:title="@string/canticles" />
+
+        <item
+            android:id="@+id/nav_holy"
+            android:icon="@drawable/joy"
+            android:title="@string/holy_communion" />
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/joy"
+            android:title="@string/order_of_service" />
+
+        <item
+            android:id="@+id/nav_extras"
+            android:icon="@drawable/joy"
+            android:title="@string/extra" />
+
+        <item
+            android:id="@+id/nav_choir"
+            android:icon="@drawable/joy"
+            android:title="@string/ghana_choir_anthem" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_note"
+                    android:icon="@drawable/joy"
+                    android:title="@string/all_notes" />
+            </group>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_bookmark"
+                    android:icon="@drawable/joy"
+                    android:title="Bookmark" />
+            </group>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_appreciation"
+                    android:icon="@drawable/joy"
+                    android:title="Appreciation" />
+            </group>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/joy"
+                    android:title="About" />
+            </group>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/joy"
+                    android:title="Contact Us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

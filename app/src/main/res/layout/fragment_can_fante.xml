@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragments.CanFanteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/dialog_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_border"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="5dp"
+                android:hint="Search Fante canticles"
+                android:imeOptions="actionSearch"
+                android:inputType="textNoSuggestions"
+                android:padding="10dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/item_list"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_canticle"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/image_no_product"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/gradBegin"
+        app:borderWidth="@dimen/dp_5"
+        app:fabSize="normal"
+        app:elevation="@dimen/card_elevation"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="end"
+        app:backgroundTint="@color/gradStop"
+        app:srcCompat="@drawable/ic_swap" />
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#272727</color>
+
+    <color name="lightwhite">#f5f5f5</color>
+    <color name="white">#fff</color>
+
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#33808f</color>
+    <color name="drawer_font">#f7497b</color>
+    <color name="drawer_icon">#33808f</color>
+    <color name="gradBegin">#FF33808F</color>
+    <color name="gradEnd">#33808f</color>
+    <color name="hymn_text">#880e4f</color>
+    <color name="stanzas_text">#141414</color>
+    <color name="canticle_text">#141414</color>
+    <color name="back_border">#4094A5</color>
+    <color name="blackgrey">#A3B0B3</color>
+    <color name="blackish">#293937</color>
+    <color name="textColor">#6E0A2C</color>
+</resources>

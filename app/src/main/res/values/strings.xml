@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Methodist Ndwom</string>
+    <string name="methodist_hymn_book">Methodist Asore Ndwom</string>
+    <string name="powered_by">Powered by Ideanity Oceans</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="canticles">Canticles</string>
+    <string name="holy_communion">Holy Communion</string>
+    <string name="ghana_choir_anthem">Ghana Choir Anthem</string>
+    <string name="order_of_service">Order of Service</string>
+    <string name="methodist_hymn">Methodist Hymn</string>
+    <string name="asore_ndwom">Asore Ndwom</string>
+    <string name="extra">Extras</string>
+    <string name="the_nicen_creed">The Nicen Creed</string>
+    <string name="nicen">"I Believe in one God, the Father Almighty,
+Maker of heaven and earth, of all things visible and invisible:
+And in one Lord Jesus Christ, the only-begotten of Son of God,
+Begotten of His Father before all worlds,
+God of God, Light of Light, Very God of very God, Begotten, not made,
+Being of one substance with the Father; By whom all things were made,
+Who for us men, and for our salvation came down from heaven,
+And was incarnate by the Holy Ghost of the Virgin Mary,
+And was made man,
+And was Crucified also for us under Pontius Pilate.
+He suffered and was buried, And the third day He rose again according to the Scriptures,
+And ascended into heaven, And sitteth on the right hand of the Father.
+
+And he shall come again with glory to judge both the quick and the dead;
+Whose kingdom shall have no end.
+And I believe in the Holy Ghost, The Lord and Giver of life,
+Who proceedeth from the Father and the Son,
+Who, with the Father and the Son together, is worshipped and glorified,
+Who spake by the Prophets.
+
+And I believe one Holy, Catholic and Apostolic Church.
+I acknowledge one Baptism for the re- mission of sins,
+And I look for the Resurrection of the dead,
+And the life of the world to come.
+
+Amen."</string>
+    <string name="apostle_creed">The Apostle Creed</string>
+    <string name="apostle">"I Believe in God the Father Almighty,
+Maker of heaven and earth: And in Jesus Christ His only Son our Lord,
+Who was conceived by the Holy Ghost, Born of the Virgin Mary, Suffered under Pontius Pilate,
+
+Was crucified, dead and buried,
+He descended into hell; The third day he rose again from the dead,
+he ascended into heaven,
+And sitteth on the right hand of God the FatherAlmighty;
+From thence He shall come to judge the quick and the dead.
+
+I believe in the Holy Ghost;
+the holy Catholic Church ;
+The Communion of Saints;
+The Forgiveness of sins;
+The Resurrection of the body ;
+And The life everlasting.
+
+Amen."</string>
+    <string name="apostle_creed_fante">The Apostle Creed Fante</string>
+    <string name="apostle_fante">"Migye Agya Onyankopɔn a ɔyɛ nneɛma nyinaa
+so Tumfoɔ ne ɔsoro ne asase yɛfo no midi
+Migye ne ba a ɔwoono koro no,
+Yesu Kristo a ɔyɛ yɛn Awurade no midi;
+
+ɔno na wɔde Honhon Kronkron na enyinsɛn no,
+na ɔbaabun Maria woo no;
+na ohuu amane Pontio Pilato bere so,
+na wɔbɔɔ no fam asɛndua ho,
+na owui, na wosiee no;
+
+na osian kɔɔ asaman,
+na ne nnansa so no ɔsɔre fii awufo mu;
+na ɔkɔɔ soro; ɛhɔ na ɔte n'agya Nyankopɔn, nneɛma nyinaa so tumfoɔ no nifa;
+ɛhɔ na ofi bɛba abebu ateasefo ne awufo ntɛn.
+
+Migye Honhom Kronkron ne Kristo Asafo
+Kronkron a ɛyɛ biako wɔ mmaa nyinaa a ahotefo
+wɔ mu ayɔnkofa ne bɔne fafiri ne honam sɔre
+ne daa nkwa, midi.
+        AMEN."</string>
+    <string name="youth_anthem">Youth Anthem</string>
+    <string name="youth_pledge">Youth Pledge</string>
+    <string name="ypledge">"I pledge to summit myself to the lord Jesus Christ our saviour,
+to serve him with fear and humility
+and to be totally committed to christ,
+to be a shinning light that will radiate
+love,
+respect,
+obedience,
+discipline,
+honesty
+and all other christian virtues to others,
+
+to be loyal to Methodist Church Nigeria and to those who are set in authority over me,
+to be faithful and honest in reading and applying the holy scripture to my daily life and,
+to be by divine grace,
+an ambassador of christ in my home,
+church
+and
+community,
+
+all the days of my life,
+so help me God,
+
+Amen."</string>
+    <string name="theme_cannot">Theme cannot be empty</string>
+    <string name="message_cannot">Message cannot be empty</string>
+    <string name="all_notes">All Notes</string>
+    <string name="want_to_delete">Do You want to delete this ?</string>
+    <string name="no">No</string>
+    <string name="failed">Failed</string>
+    <string name="yes">Yes</string>
+</resources>

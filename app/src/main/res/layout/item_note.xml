@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_16"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="@color/colorPrimary"
+        app:mrl_rippleDuration="100"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleHover="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:id="@+id/linear_view">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_20"
+                    android:backgroundTint="@color/blackish"
+                    android:background="@color/blackish"
+                    android:src="@drawable/point"/>
+
+                <View
+                    android:id="@+id/view_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_5"
+                    android:background="@color/gradEnd" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hb"
+                    android:includeFontPadding="false"
+                    android:padding="@dimen/dp_16"
+                    android:textSize="15sp"
+                    android:text="DateTime" />
+
+                <ImageView
+                    android:id="@+id/image_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_delete"
+                    android:padding="@dimen/dp_16"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bariol_bold"
+                android:includeFontPadding="false"
+                android:paddingStart="@dimen/dp_16"
+                android:paddingEnd="@dimen/dp_16"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="First Day at Church Service"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hb"
+                android:includeFontPadding="false"
+                android:maxLines="3"
+                android:padding="@dimen/dp_16"
+                android:text="I believe in the Holy Ghost; the holy Catholic Church;The Communion of Saints;
+The Forgiveness of sins;
+The Resurrection of the body ;
+And The life everlasting."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</androidx.cardview.widget.CardView>
